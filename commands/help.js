@@ -14,7 +14,6 @@ module.exports = {
       .setTitle(`Help Menu!`)
       .setDescription('My Prefix Is: `'+`${config.prefix}`+'`')
       .addField(`General commands:`, `${prefix}help - Shows all the commands you can use!\n${prefix}ban - Bans a User from the Server.\n${prefix}kick - Kicks a User from the Server.`)
-      .setFooter('Made with ❤️ by Skypixel™')
     message.channel.send(embed)
   }
 };
